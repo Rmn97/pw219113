@@ -3,29 +3,32 @@
 <head>
 	<meta charset="utf-8">
 	<title>Práctica 02 HTML5+CSS3</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png">
-		<img src="img/granthamns.png">
-		<img src="img/paint.png">
+		<img src="img/granthams.png" id="granthams">
+		<img src="img/paint.png" id="paint">
 		<input type="search" placeholder="Search">
 		<nav>
 			<ul>
-				<marquee direction="left"><li>Print</li> </marquee>
-				<marquee direction="right"><li>Copy</li> </marquee>
-				<marquee direction="up"><li>Finishing</li> </marquee>
-				<marquee direction="down"><li>Design</li> </marquee>
-				<marquee direction="left"><li>Exhibition</li> </marquee>
+				<li>Print</li> </marquee>
+				<li>Copy</li> </marquee>
+				<li>Finishing</li> </marquee>
+				<li>Design</li> </marquee>
+				<li>Exhibition</li> </marquee>
 			</ul>
 		</nav>
 	</header>
-	<section>
-		<article>
+	<section id="primerSeccion">
+		<article id="secc01art01">
 			<img src="img/slide.jpg">
 		</article>
-		<article>
+		<article id="secc01art02">
+			<span class="colorrosa letragrande nito">
 			We can offer...
+			</span>
 			<ul>
 				<li>Highly Competitive Prices</li>
 				<li>Variable Data</li>
@@ -37,26 +40,34 @@
 				<li>Great Customer Service</li>
 			</ul>
 		</article>
-		<img src="img/bg_offer.png">
+		<img src="img/bg_offer.png" id="bgoffer">
 	</section>
-	<section>
+	<section id="segundaSeccion">
 		<article>
+			<span class="colorrosa letramediana nito">
 			01772 250207
+			</span>
 		</article>
 	</section>
 	<section>
 		<article>
 			<img src="img/cerdito.png">
-			Save this Spring
+			<span class="colorrosa nito">
+				Save this Spring
+			</span>
 			<br>
 			Fabulous discounts on canva's and roll up's as
 			well as many offers
 			<p>
+			<span class="colorrosa nito">
 			Find out more...
+			</span>
 		</article>
 		<article>
 			<img src="img/hoja.png">
-			ECO Friendly
+			<span class="colorverde nito">
+				ECO Friendly
+			</span>
 			<br>
 			ECO Friendly Materials used in our production
 			process.
@@ -67,7 +78,9 @@
 		</article>
 		<article>
 			<img src="img/new.png">
-			Upload your life
+			<span class="colorazul nito">
+				Upload your life
+			</span>
 			<br>
 			Making it easy to order your printing today.
 			Our upload facility enables you send your files
@@ -75,10 +88,14 @@
 			us of your order, then sit back an wait for a 
 			member of our team to contact you.
 			<p>
-			Upload your file now
+			<span class="colorazul">
+				Upload your file now
+			</span>
 		</article>
 		<article>
-			Stay in touch
+			<span class="colorrosa letramediana">
+				Stay in touch
+			</span>
 			<br>
 			join our mailing list today
 			<input type="email" placeholder="Email goes here">
