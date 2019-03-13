@@ -5,6 +5,10 @@ body{
 	min-width: 1078px;
 	max-width: 1078px;
 }
+footer{
+	background-color: #4267B3;
+	color: white;
+}
 header input{
 	float: right;
 	margin-right: -200px;
@@ -36,7 +40,7 @@ header nav ul li{
 	float: right;
 }
 #primerSeccion {
-	border: 1px solid red; 
+	/*border: 1px solid red; */
 	height: 318px;
 	margin-top: 60px;
 }
@@ -60,18 +64,45 @@ header nav ul li{
 	content: "• ";
 	color: #FF9099;
 }
+#secc03art04{
+	padding-top: 40px;
+}
 #segundaSeccion article{
 	margin-right: 168px;
 	text-align: right;	
 }
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+.colorazul{
+	color: #4267B3;
+}
 .colorrosa{
 	color: #FF0099;
+}
+.colorverde{
+	color: #8BC500;
 }
 .letragrande{
 	font-size: 3.5em;
 }
 .letramediana {
 	font-size: 2em;
+}
+.letrapequena{
+	font-size: 0.5em;
 }
 .nito{
 	font-weight: bold;
