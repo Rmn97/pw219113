@@ -9,6 +9,10 @@ footer{
 	background-color: #4267B3;
 	color: white;
 }
+footer article{
+	display: inline-block;
+    vertical-align: top;
+}
 header input{
 	float: right;
 	margin-right: -200px;
