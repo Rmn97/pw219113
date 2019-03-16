@@ -1,6 +1,7 @@
 body{
-    background: #2b2b2b;
+    background-color: #2b2b2b;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     margin:0px auto;
 	max-width: 1175px;
 }
@@ -10,42 +11,55 @@ footer{
 footer article{
     display: inline-block;
     vertical-align: top;
-    width: 33%;
-    border-top: 1px dashed gray;
-    margin-top: 17px;    
+    width: 28%;
+    border-top: 1.5px dashed gray;
+    margin-top: 17px;
+    margin-left: 11px;
+    padding-left: 4%;
+    padding-top: 12px;
 }
 header{
+    padding-top: 7px;
     background: #f0f0f0;
 }
 header img{
-    margin-top: 5px;
+    /*margin-top: 5px;*/
     width: 896px;
     height: 47px;
-    margin-left: 30px;
+    margin-left: 53.5px;
 }
 header input{
     margin-top: 5px;
     float: left;
+    margin-left: 35px;
     position: relative;
+    width: 139px;
 }
+
 #prSeccion{
     margin-top: 17px;
-    border-bottom: 1px solid lightgray;
+    /*border-bottom: 1px solid gray;*/
 }
 #prSeccion article{
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin-left: -10px;
+    width: 200px;
+    height: 340px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 8px;
+    margin-left: -4.3px;
 }
+
 #Sec01Art01{
     color: #828282;
 }
 #Sec01Art01 img{
+    margin-top: -10px;
     width: 195px;
 }
-#Sec01Art01 ul li:before{
-    content: none;
+#Sec01Art01 ul{
+    list-style: none;
 }
 #Sec01Art02{
     background: #b4d052;
@@ -63,14 +77,47 @@ header input{
     background: #e4e4e4;
     color: #7b7b7b;
 }
+#segSeccion{
+    border-top: 1px solid gray;
+    margin-top: 19px;
+}
 #segSeccion article{
     display: inline-block;
     vertical-align: top;
     width: 33%;
     margin-top: 27px;
+    
 }
 #segSeccion article img{
-    width: 262px;
+    width: 282px;
+}
+.caja1{
+    background: #7b961dce;
+    left: 576px;
+    top: 377px;
+    position: absolute;
+    padding: 11px;
+}
+.caja2{
+    background: #3f3f3fda;
+    left: 799px;
+    top: 377px;
+    position: absolute;
+    padding: 11px;
+}
+.caja3{
+    background: #b90a1cde;
+    left: 1022px;
+    top: 377px;
+    position: absolute;
+    padding: 11px;
+}
+.caja4{
+    background: #c4c2c2;
+    left: 1245px;
+    top: 377px;
+    position: absolute;
+    padding: 11px;
 }
 .colorazul{
 	color: #4267B3;
@@ -79,11 +126,14 @@ header input{
     color: white;
 }
 .colorgris{
-    color: #a1a1a1;
+    color: #b8b5b5;
 }
 .letragrande{
-    font-size: 2em;
+    font-size: 1.7em;
+}
+.letrachica{
+    font-size: 0.9em;
 }
 .nito{
-    font-weight: bold;
+    font-weight: 565;
 }
