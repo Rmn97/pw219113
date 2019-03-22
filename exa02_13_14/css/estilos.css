@@ -13,27 +13,31 @@ section article{
     vertical-align: top;
 }
 #boton1{
-	border-radius: 15px;
-	border-color: black;
+	border-radius: 22px;
+	border: solid 1.9px black;
 	background: #f1efef;
 	font-weight: bold;
+	padding: 10px 25px;
 }
 #boton2{
-	border-radius: 15px;
-	border-color: white;
+	border-radius: 22px;
 	background: #606060;
 	color: white;
 	font-weight: bold;
+	border: solid 1.9px white;
+	padding: 10px 25px;
 }
 #boton3{
-	border-radius: 15px;
-	border-color: #404040;
+	border-radius: 22px;
+	border: solid 1.9px #404040;
+	padding: 10px 25px;
 	background: #d1dccf;
 	font-weight: bold;
 }
 #boton4{
-	border-radius: 15px;
-	border-color: white;
+	border-radius: 22px;
+	border: solid 1.9px white;
+	padding: 10px 25px;
 	background: #787777;
 	color: white;
 	font-weight: bold;
@@ -44,7 +48,7 @@ section article{
 	height: 500px;
 }
 #SecArt0102{
-	padding-top: 122px;
+	padding-top: 123px;
 	text-align: center;
 }
 #SecArt02{
@@ -71,7 +75,7 @@ section article{
 	text-align: center;
 }
 #FArt02{
-	width: 312px;
+	width: 308px;
 	height: 171px;
 	background: #d1dccf;
 	text-align: center;
