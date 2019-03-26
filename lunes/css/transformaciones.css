@@ -1,0 +1,42 @@
+/*body{
+    perspective: 600px;
+}*/
+article{
+    background: greenyellow;
+    border: 2px solid black;
+    margin: 20px 5px;
+    padding: 15px;
+    width: 400px;
+
+    -moz-transition: all 5s linear;
+}
+article p{
+    font: 30px Tahoma;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* 
+Este evento de Hover hará que cambie de tamaño la caja
+article:hover{
+    widows: 800px;
+} */
+
+article:hover{
+    /*Hover, evento en el cual se registra SI el puntero está sobre dicho objeto*/
+    background: black;
+    /*color del fondo*/
+    color: greenyellow;
+    /*color de letra*/
+    border-color: greenyellow;
+    /*color del borde*/
+
+    /*hará que se mueva a las coordenadas X, Y*/
+    -moz-transform: translate(150px, 300px);
+    -ms-transform: translate(150px, 300px);
+    -o-transform: translate(150px, 300px);
+    -webkit-transform: translate(150px, 300px);
+    /* Se le añade prefijos para que funcione en
+        otro navegador también ya que no son un estándar */
+}
+
