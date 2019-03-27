@@ -7,8 +7,13 @@ article{
     margin: 20px 5px;
     padding: 15px;
     width: 400px;
-
+    text-align: center;
     -moz-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    -webkit-transition: all 5s linear;
+    /* Al igual como en el Transform, se le añade su respectivo prefijo
+        a cada transition */
 }
 article p{
     font: 30px Tahoma;
@@ -22,21 +27,59 @@ article:hover{
     widows: 800px;
 } */
 
-article:hover{
-    /*Hover, evento en el cual se registra SI el puntero está sobre dicho objeto*/
+/* article:hover{
+    Hover, evento en el cual se registra SI el puntero está sobre dicho objeto
     background: black;
-    /*color del fondo*/
+    color del fondo
     color: greenyellow;
-    /*color de letra*/
+    color de letra
     border-color: greenyellow;
-    /*color del borde*/
+    color del borde
 
-    /*hará que se mueva a las coordenadas X, Y*/
+    hará que se mueva a las coordenadas X, 
     -moz-transform: translate(150px, 300px);
     -ms-transform: translate(150px, 300px);
     -o-transform: translate(150px, 300px);
     -webkit-transform: translate(150px, 300px);
-    /* Se le añade prefijos para que funcione en
-        otro navegador también ya que no son un estándar */
+    
+    Se le añade prefijos para que funcione en
+    otro navegador también ya que no son un estándar 
 }
+ */
 
+ /* article:hover{
+     Al pasar el mouse, la caja hará una vuelta de 180 grados
+     background: black;
+     color: greenyellow;
+     -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+     -webkit-transform: rotate(180deg);
+ } */ 
+
+ /* article:hover{
+    background: black;
+    color: greenyellow;
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+ } */
+
+ article:hover{
+     background: black;
+     color: greenyellow;
+     -moz-transform: skew(10deg,10deg);
+     -ms-transform: skew(10deg,10deg);
+     -o-transform: skew(10deg,10deg);
+     -webkit-transform: skew(10deg,10deg);
+ }
+
+ article:hover{
+    background: black;
+    color: greenyellow;
+    -moz-transform: translate(150px, 150px) rotate(360deg) scale(1.5) skew(10deg, 10deg);
+    -ms-transform: translate(150px, 150px) rotate(360deg) scale(1.5) skew(10deg, 10deg);
+    -o-transform: translate(150px, 150px) rotate(360deg) scale(1.5) skew(10deg, 10deg);
+    -webkit-transform: translate(150px, 150px) rotate(360deg) scale(1.5) skew(10deg, 10deg);
+ }
