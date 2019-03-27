@@ -1,0 +1,41 @@
+article{
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#uno{
+    /* Si el navegador no soporta gradientes, el fondo será rojo totalmente*/
+    background: red;
+    background: -moz-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+    background: -o-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+    background: -ms-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+    background: -webkit-linear-gradient(rgba(255,0,0,1), rgba(255,255,0,1));
+}
+.texto{
+    position: relative;
+    top: 15px;
+}
+
+#dos{
+    /* Si el navegador no soporta gradientes, el fondo será rojo totalmente*/
+    background: red;
+    background: -moz-linear-gradient(to left,red,yellow);
+    background: -ms-linear-gradient(to left,red,yellow);
+    background: -o-linear-gradient(to left,red,yellow);
+    background: -webkit-linear-gradient(to left,red,yellow);
+    background: linear-gradient(to left, red, yellow);
+}
+
+#tres{
+    /* Si el navegador no soporta gradientes, el fondo será rojo totalmente*/
+    background: red;
+    /*gradiante por la Der. del rojo al amarillo*/
+    background: -moz-linear-gradient(to right,red,yellow);
+    background: -ms-linear-gradient(to right,red,yellow);
+    background: -o-linear-gradient(to right,red,yellow);
+    background: -webkit-linear-gradient(to right,red,yellow);
+    background: linear-gradient(to right, red, yellow);
+}

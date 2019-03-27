@@ -66,14 +66,17 @@ article:hover{
     -webkit-transform: scale(1.5);
  } */
 
- article:hover{
+ /* article:hover{
      background: black;
      color: greenyellow;
+
+     Skew hará "retorcer" la caja
+     
      -moz-transform: skew(10deg,10deg);
      -ms-transform: skew(10deg,10deg);
      -o-transform: skew(10deg,10deg);
      -webkit-transform: skew(10deg,10deg);
- }
+ } */
 
  article:hover{
     background: black;
