@@ -9,3 +9,9 @@ Author: Esteban Chavez Verdin <esteban.ch.v95@gmail.com>
 Date:   Mon Feb 18 13:37:54 2019 -0700
 
     Commit Inicial
+
+
+Recordatorio
+Hacer git init
+	git pull https://github.com/Rmn97/pw219113.git
+	git remote add origin https://github.com/Rmn97/pw219113.git
