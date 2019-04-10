@@ -16,4 +16,4 @@ En caso de borrar hacer esto:
 	2.git pull https://github.com/Rmn97/pw219113.git
 	3.git remote add origin https://github.com/Rmn97/pw219113.git
 
-Asfdsadfsadf
+Asfds
