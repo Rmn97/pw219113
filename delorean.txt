@@ -15,3 +15,5 @@ En caso de borrar hacer esto:
 	1.Hacer git init
 	2.git pull https://github.com/Rmn97/pw219113.git
 	3.git remote add origin https://github.com/Rmn97/pw219113.git
+
+Asfdsadfsadf
