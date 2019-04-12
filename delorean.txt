@@ -15,5 +15,7 @@ En caso de borrar hacer esto:
 	1.Hacer git init
 	2.git pull https://github.com/Rmn97/pw219113.git
 	3.git remote add origin https://github.com/Rmn97/pw219113.git
+	4.git config user.name "Rmn97"
+	5.git config user.email coen.navarro.93@gmail.com
 
 Asfds
