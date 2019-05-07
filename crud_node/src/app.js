@@ -7,6 +7,9 @@ const indiceRutas = require ('./rutas/index');
 //Usar las rutas
 app.use("/", indiceRutas);
 
+//Middleware
+
+
 //Servidor que escuche
 app.listen(3000, ()=>{
 	console.log("Servidor escuchando en puerto 3000");
